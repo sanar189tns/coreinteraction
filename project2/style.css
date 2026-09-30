@@ -1,11 +1,20 @@
 h1{
     font-family: "r41-etoile", sans-serif;
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
 }
 p{
     text-align: center;
 }
 h2{
     font-style:italic;
+}
+img{
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 30px
+}
+section{
+    margin-left: 120px;
+    margin-right: 120px;
 }

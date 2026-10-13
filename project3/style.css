@@ -1,0 +1,71 @@
+.artwork {
+    height: 600px;
+    width: 384px;
+    border: 1px solid black;
+    background-color: rgb(235, 235, 232);
+    position: relative;
+    top: 50%;
+    left: 40%;
+}
+.blackline__1{
+    background-color: black;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+.blackline__2{
+    background-color: black;
+    height: 0.75%;
+    width: 16%;
+    position: absolute;
+    top: 40%;
+    left: 68%;
+}
+.yellowline__1{
+    background-color: rgb(237, 214, 63);
+    height: 13%;
+    width: 1.3%;
+    position: absolute;
+    top: 35%;
+    left: 75.5%;
+}
+.redline__1{
+    background-color:  rgb(237, 214, 63);
+    border-top: 3px solid rgb(150, 17, 12);
+    border-bottom: 3px solid rgb(150, 17, 12);
+    height: 1.6%;
+    width: 18%;
+    position: absolute;
+    bottom: 12%;
+    left: 33%;
+}
+.redline__2{
+    background-color: rgb(150, 17, 12);
+    height: 30%;
+    width: 2.2%;
+    position: absolute;
+    bottom: 6.5%;
+    left: 45%;
+}
+h1{
+    font-family: "tt-modernoir", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    margin-left: 80px;
+}
+p{
+    font-family: "tt-modernoir", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    margin-left: 80px;
+    margin-top: -40px
+}
+.year{
+    font-family: "tt-modernoir", sans-serif;
+    font-weight: 300;
+    font-style: italic; 
+}

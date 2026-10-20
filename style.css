@@ -33,8 +33,10 @@ body{
 
 h1{
     color: white;
-    font-family: 'futura-pt', sans-serif;
-    font-size: 100px;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -69,13 +71,7 @@ a{
     font-size: 20px;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-.projectlink_1{
-    position: absolute;
-    top: 50%;
-    left: 25%;
+    justify-content: space-around;
 }
 
 .projectlink_2{
@@ -89,4 +85,20 @@ a{
     position: absolute;
     top: 50%;
     right: 25%;
-} */
+} 
+
+.project1star{
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transition: transform 0.2s;
+    mix-blend-mode: lighten;
+}
+
+.project1star:hover{
+    transform: rotate(-20deg);
+}

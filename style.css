@@ -30,13 +30,12 @@ body{
     opacity: 0.55;
 }
 
-
 h1{
     color: white;
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 80px;
+    font-size: 5rem;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -47,7 +46,7 @@ h6{
     font-family: "unibody-8-small-caps-new", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 2em;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -93,12 +92,45 @@ a{
     background-color: white;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     position: absolute;
+    mix-blend-mode: lighten;
+    opacity:40%;
     top: 50%;
     left:8%;
-    transition: transform 0.2s;
-    mix-blend-mode: lighten;
+    transition: transform 0.4s;
 }
 
 .project1star:hover{
     transform: rotate(-20deg);
+    opacity:100%;
+}
+
+@media (max-width: 393px){
+    body{
+        width:393px;
+        height:852px;
+    }
+    .maintext{
+        
+    }
+    h1{
+        font-size: 35px;
+        top:10%;
+        left: 140px;
+    }
+    h6{
+        font-size: 10px;
+        top:15%;
+        left:75px;
+    }
+    .fall-2026{
+       font-size: 10px;
+        top:17%;
+        left:50px;
+    }
+  .project1star{
+    top: 24%;
+    left:8%;
+    width:25px;
+    rotate:-20deg;
+  }  
 }
